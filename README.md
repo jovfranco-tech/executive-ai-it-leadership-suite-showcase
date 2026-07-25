@@ -15,9 +15,11 @@
 
 ---
 
-## Suite Architecture & Relationship Model
+## Suite Architecture & Operating Model
 
-The **Executive AI & IT Leadership Suite** bridges domain-specific operational tools and C-suite decision support. Six specialized, public portfolio demonstration web applications provide focused visibility into AI risk, agent autonomy, PMO delivery, SecOps triage, AI portfolio alignment, and cloud FinOps. Signals from these six domain modules flow into **Executive Command Center**, the integrated commercial platform providing consolidated board-level decision support.
+The **Executive AI & IT Leadership Suite** bridges domain-specific operational tools and C-suite decision support. Six specialized, public portfolio demonstration web applications provide focused visibility into AI risk, agent autonomy, PMO delivery, SecOps triage, AI portfolio alignment, and cloud FinOps.
+
+The six portfolio demonstrations illustrate domain capabilities that are consolidated within the **Executive Command Center** operating model—an integrated commercial decision-support platform providing high-level executive alignment across risk, operations, finance, and strategy.
 
 ```mermaid
 flowchart TD
@@ -34,8 +36,12 @@ flowchart TD
         ECC["7. Executive Command Center"]
     end
 
-    M1 & M2 & M3 & M4 & M5 & M6 -->|Domain Telemetry & Risk Signals| ECC
+    M1 & M2 & M3 & M4 & M5 & M6 -->|Domain Perspectives & Executive Decision Themes| ECC
 ```
+
+> [!NOTE]
+> **Conceptual Domain Consolidation**:
+> The architecture diagram illustrates conceptual and domain-level alignment within the suite framework. The six public portfolio demonstrations operate independently with synthetic dataset fixtures and do not represent active production integrations, shared live databases, or streaming telemetry pipelines.
 
 ---
 
@@ -49,12 +55,12 @@ flowchart TD
 </p>
 
 - **Live Interactive Demo**: 👉 **[Open AI Governance Control Tower](https://ai-governance-control-tower.vercel.app/)**
-- **Business Problem**: Enterprise difficulty in systematically scoring AI use-case risk, mapping controls, tracking policy exceptions, and preparing for regulatory audits.
-- **Intended Audience**: Chief AI Officers (CAIO), Chief Risk Officers (CRO), Enterprise AI Committees.
-- **Verified Capabilities**: ISO/IEC 42001-inspired intake scoring, automated risk tiering, policy exception tracking, third-party vendor risk scorecards, and audit-ready evidence ledgers.
+- **Business Problem**: Enterprise difficulty in systematically scoring AI use-case risk, mapping controls, tracking policy exceptions, and preparing for governance audits.
+- **Intended Audience**: Chief AI Officers (CAIO), Chief Risk Officers (CRO), Enterprise Risk Committees.
+- **Verified Capabilities**: ISO/IEC 42001-inspired intake scoring, risk tiering, policy exception tracking, third-party vendor risk scorecards, and audit-ready evidence ledgers.
 - **Product Maturity**: Portfolio Prototype (ISO/IEC 42001-inspired functional scope).
-- **Synthetic Data Scope**: Operates with representative synthetic data. Does not process confidential enterprise records.
-- **Suite Relationship**: Provides foundational AI risk scoring and control evidence signals to the Executive Command Center.
+- **Synthetic Data Scope**: Operates with representative synthetic data. Does not process real tenant metrics or guarantee statutory compliance.
+- **Suite Relationship**: Illustrates AI risk intake scoring and control evidence perspectives within the overall governance suite.
 
 ---
 
@@ -64,12 +70,12 @@ flowchart TD
 </p>
 
 - **Live Interactive Demo**: 👉 **[Open AI Agent Governance Registry](https://ai-governance-registry.vercel.app/)**
-- **Business Problem**: Uncontrolled proliferation of autonomous AI agents, tool-calling permissions, and lack of explicit human-in-the-loop oversight gates.
+- **Business Problem**: Proliferation of autonomous AI agents, tool-calling permissions, and lack of explicit human-in-the-loop oversight gates.
 - **Intended Audience**: Chief Information Security Officers (CISO), AI Platform Architects, IT Governance Directors.
 - **Verified Capabilities**: Agent inventory tracking, tool access permission boundaries, risk classification tiers, lifecycle state transitions, and structured escalation logs.
 - **Product Maturity**: Portfolio Prototype (Agent Risk Framework).
-- **Synthetic Data Scope**: Operates with synthetic agent configurations and local storage. No live API tokens or production system access.
-- **Suite Relationship**: Feeds agent autonomy boundaries and escalation signals to the Executive Command Center.
+- **Synthetic Data Scope**: Operates with synthetic agent configurations and browser-local state. Does not enforce live enterprise IAM or API isolation.
+- **Suite Relationship**: Illustrates agent autonomy boundaries and escalation themes within the governance suite.
 
 ---
 
@@ -84,7 +90,7 @@ flowchart TD
 - **Verified Capabilities**: Milestone velocity scoring, risk health indicators, delivery bottleneck identification, and cross-project resource allocation.
 - **Product Maturity**: Portfolio Demonstration (PMO Risk & Velocity).
 - **Synthetic Data Scope**: Simulated project telemetry for demonstration purposes.
-- **Suite Relationship**: Supplies project health and delivery risk signals to the Executive Command Center.
+- **Suite Relationship**: Illustrates project health and delivery velocity perspectives within the governance suite.
 
 ---
 
@@ -94,12 +100,12 @@ flowchart TD
 </p>
 
 - **Live Interactive Demo**: 👉 **[Open IT Operations AI Copilot](https://it-operations-ai-copilot.vercel.app/)**
-- **Business Problem**: High Mean Time to Resolution (MTTR) during critical IT incidents and SecOps operational overload.
+- **Business Problem**: Extended incident triage timelines and SecOps operational overload.
 - **Intended Audience**: IT Operations Directors, Infrastructure Managers, SecOps Leads.
 - **Verified Capabilities**: Incident threat triage, disaster recovery readiness tracking, operational status briefings, and context-aware resolution guidance.
 - **Product Maturity**: Portfolio Demonstration (SecOps & Incident Triage).
 - **Synthetic Data Scope**: Operates with simulated incident logs and infrastructure alerts.
-- **Suite Relationship**: Transmits operational stability and incident risk metrics to the Executive Command Center.
+- **Suite Relationship**: Illustrates operational stability and incident triage perspectives within the governance suite.
 
 ---
 
@@ -114,7 +120,7 @@ flowchart TD
 - **Verified Capabilities**: AI investment prioritization matrix, ROI value realization tracking, strategic alignment scoring, and portfolio balancing.
 - **Product Maturity**: Portfolio Demonstration (AI Portfolio Scoring).
 - **Synthetic Data Scope**: Representative financial models and synthetic initiative scores.
-- **Suite Relationship**: Feeds strategic alignment and investment balance metrics to the Executive Command Center.
+- **Suite Relationship**: Illustrates strategic alignment and investment balance perspectives within the governance suite.
 
 ---
 
@@ -129,7 +135,7 @@ flowchart TD
 - **Verified Capabilities**: Cross-domain waste scoring, risk-adjusted recoverable savings identification, Savings Opportunity Board, and execution asset generation.
 - **Product Maturity**: Portfolio Demonstration (Hybrid Waste Intelligence).
 - **Synthetic Data Scope**: Operates with synthetic telemetry exports and browser-local state.
-- **Suite Relationship**: Delivers cloud unit economics and hybrid waste signals to the Executive Command Center.
+- **Suite Relationship**: Illustrates hybrid infrastructure waste scoring and unit economic perspectives within the governance suite.
 
 > [!NOTE]
 > **FinOps Product Boundary Notice**: `Hybrid FinOps Command Center — Portfolio Demonstration` is a non-commercial portfolio demonstration app. It is distinct from `Hybrid FinOps Savings Copilot — Commercial Product`, whose source code and implementation remain strictly private.
@@ -146,15 +152,15 @@ flowchart TD
 - **Commercial Classification**: `PUBLIC_COMMERCIAL_LANDING` • `FULL_APP_PROTECTION_PENDING` • `PRIVATE_COMMERCIAL_SOURCE` • `INTEGRATED_COMMERCIAL_PLATFORM`
 
 ### Executive Product Overview
-**Executive Command Center** is the commercial capstone platform consolidating signals across all six underlying portfolio domains into a single, unified executive command layer. Designed specifically for enterprise CIOs, CAIOs, CISOs, and Board Committees, it synthesizes raw risk, operational, financial, and PMO metrics into board-ready executive memos, risk scorecards, and action plans.
+**Executive Command Center** is the commercial capstone platform designed to consolidate decision-support perspectives across the six underlying portfolio domains into a single executive interface. Intended for enterprise CIOs, CAIOs, CISOs, and Board Committees, it synthesizes risk, operational, financial, and PMO metrics into executive briefings and action plans.
 
-### Key Target Personas & Outcomes
-- **CAIO / Risk Committee**: Board-level AI risk posture scorecards and ISO 42001 compliance tracking.
-- **CIO / Operations Lead**: Real-time operational health, PMO delivery velocity, and hybrid FinOps waste recovery.
-- **CISO**: Zero Trust security posture, third-party vendor scorecards, and incident response readiness.
+### Key Target Personas & Consolidated Perspectives
+- **CAIO / Risk Committee**: Board-level risk posture summaries and ISO/IEC 42001-inspired governance readiness tracking.
+- **CIO / Operations Lead**: Consolidated operational health views, PMO delivery velocity, and hybrid FinOps waste recovery summaries.
+- **CISO**: Security and resilience posture views, vendor risk scorecards, and incident response readiness concepts.
 
-### Private Demonstration Access
-Source code, database schemas, internal administration routes (`/committee`), and proprietary AI prompt workflows for Executive Command Center are strictly **PRIVATE**. Enterprise decision-makers may request a protected private demonstration via the official landing page.
+### Private Access & Protection Boundaries
+Commercial source code, backend database schemas, proprietary scoring heuristics, and internal administration, committee, and operational routes remain private. Enterprise decision-makers may request a protected demonstration via the official landing page.
 
 ---
 
