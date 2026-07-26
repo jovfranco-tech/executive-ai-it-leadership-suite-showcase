@@ -78,7 +78,7 @@ flowchart TD
 - **Live Interactive Demo**: **[Open AI Governance Control Tower](https://ai-governance-control-tower.vercel.app/)**
 - **Business Problem**: Enterprise difficulty in systematically scoring AI use-case risk, mapping controls, tracking policy exceptions and preparing for governance audits.
 - **Intended Audience**: Chief AI Officers, Chief Risk Officers and Enterprise Risk Committees.
-- **Verified Capabilities**: ISO/IEC 42001-inspired intake scoring, risk tiering, policy exception tracking, third-party vendor risk scorecards and audit-ready evidence ledgers.
+- **Verified Capabilities**: ISO/IEC 42001-inspired intake scoring, risk tiering, policy exception tracking, third-party vendor risk scorecards and structured evidence ledgers.
 - **Product Maturity**: Portfolio Prototype — ISO/IEC 42001-inspired functional scope.
 - **Synthetic Data Scope**: Representative synthetic data; no real tenant metrics or guaranteed statutory compliance.
 
