@@ -189,3 +189,12 @@ Commercial source code, backend schemas, proprietary scoring heuristics and inte
 
 © Jovan Franco. All Rights Reserved.  
 This repository is provided as a public portfolio showcase and architectural overview. Reproduction, redistribution or commercial use without prior written consent is prohibited.
+
+## Estado verificado 2026-11-25
+
+Resultado de la consolidación de ramas (solo hechos comprobados en git; no es una certificación ni una medición de producto).
+
+- No hay `package.json` en la raíz de `main`.
+- Archivos de prueba detectados: 0. **Las pruebas no se ejecutaron en esta pasada de consolidación** (sin instalar dependencias) salvo que se indique lo contrario en `docs/governance/BRANCH_CONSOLIDATION_PLAN_20261125.md`.
+- Ramas anteriores con trabajo propio (incluida la reescritura de README `docs/readme-reconciliation-001`) se conservan como tags `archive/20261125/*`; su contenido no se fusionó por no poder verificarse contra el código.
+- Detalle de la consolidación: `docs/governance/BRANCH_CONSOLIDATION_PLAN_20261125.md`.
